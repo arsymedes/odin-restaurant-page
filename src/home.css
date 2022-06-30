@@ -41,10 +41,26 @@ html, body {
 
 .genshin {
   font-family: "GenshinFont";
-  font-size: 3rem;
+  font-size: 3.6rem;
   font-weight: 1000;
-  letter-spacing: 0.9rem;
-  transform: scale(1, 0.8);
+  letter-spacing: 1.35rem;
+  transform: scale(1, 0.78);
+  text-align: center;
+  position: relative;
+  left: 15px;
+  bottom: 50px;
+}
+
+.genshin-small {
+  font-family: "GenshinFont";
+  font-size: 1.05rem;
+  font-weight: 1000;
+  letter-spacing: 0.394rem;
+  transform: scale(1, 0.78);
+  text-align: center;
+  position: relative;
+  left: 3px;
+  bottom: 18px;
 }
 
 button {
