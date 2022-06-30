@@ -1,17 +1,10 @@
-import hashBrown from "./img/mondstadt-hash-brown.jpg"
-import tricolorDango from "./img/tricolor-dango.jpg"
-import importedPoultry from "./img/imported-poultry.jpg"
-import jadeParcels from "./img/jade-parcels.jpg"
-import stirFried from "./img/stir-fried-filet.jpg"
-import pancake from "./img/tea-break-pancake.jpg"
-
-const menu = (() => {
+const contact = (() => {
   const content = document.querySelector("body")
 
-  const addMenu = () => {
+  const addContact = () => {
     let html =  /*html*/ `
       <div class="header">
-        <div class="shading shading-center">
+        <div class="shading">
           <div class="nav">
             <div class="logo">
               <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120.8929 402.84804">
@@ -49,55 +42,23 @@ const menu = (() => {
             </ul>
             <div class="about">About</div>
           </div>
-          <div class="plates">
-            <div class="plate">
-              <img src=${hashBrown} alt="Mondstadt Hash Brown">
-              <div class="info">
-                <h1>Mondstadt Hash Brown</h1>
-                <p>A fried cake of mashed potatoes. A little bit of pinecone helps give it a nice crunch, and great with a bit of jam. Loved by people of all ages.<p>
-                <h2>500 Mora</h2>
+
+          <div class="contact">
+            <div class="cards">
+              <div class="card">
+                <h1>Contact Us</h1>
+                <ul>
+                  <li>Phone : +81 75 920 7853</li>
+                  <li>Email: genshin_cs@hoyoverse.com</li>
+                  <li>Or Contact Us Through The Game</li>
+                </ul>
+              </div>
+              <div class="card">
+                <h1>Address</h1>
+                <p>Japan, 〒150-0031 Tokyo, Shibuya City, Sakuragaokacho, 12−10 渋谷インフォスアネックス 9階</p>
               </div>
             </div>
-            <div class="plate">
-              <img src=${pancake} alt="Tea Break Pancake">
-              <div class="info">
-                <h1>Tea Break Pancake</h1>
-                <p>A stack of round pancakes. A staple originating from afternoon tea in manors. Only the best berries should be picked for this dish.<p>
-                <h2>300 Mora</h2>
-              </div>
-            </div>
-            <div class="plate">
-              <img src=${stirFried} alt="Stir Fried Filet">
-              <div class="info">
-                <h1>Stir Fried Filet</h1>
-                <p>Sliced meat flash-fried in a wok. The mild Jueyun Chili adds just the right amount of kick to the delicious aroma of the meat. Perfect as an appetizer and also goes well with rice.<p>
-                <h2>500 Mora</h2>
-              </div>
-            </div>
-            <div class="plate">
-              <img src=${jadeParcels} alt="Jade Parcels">
-              <div class="info">
-                <h1>Jade Parcels</h1>
-                <p>An exquisite-looking dish. The ham's sweetness is locked inside the fresh vegetables, drizzled with a spicy broth. Delicious is an understatement.<p>
-                <h2>300 Mora</h2>
-              </div>
-            </div>
-            <div class="plate">
-              <img src=${importedPoultry} alt="Imported Poultry">
-              <div class="info">
-                <h1>Imported Poultry</h1>
-                <p>A meat dish drizzled with sauce. The fowl is marinated before being covered in batter and fried, and a thick sauce is drizzled over it as a finishing touch. The accompanying vegetables are local produce, but the marinating methods and sauce are all imported, hence the name "imported poultry."<p>
-                <h2>500 Mora</h2>
-              </div>
-            </div>
-            <div class="plate">
-              <img src=${tricolorDango} alt="Tricolor Dango">
-              <div class="info">
-                <h1>Tricolor Dango</h1>
-                <p>A soft, glutinous snack. Glutinous rice has been grown into powder and rolled into a ball before being steamed. The Sakura Bloom and Snapdragon colors lend an extra liveliness to these dango.<p>
-                <h2>300 Mora</h2>
-              </div>
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13504.86600057267!2d139.68857871737143!3d35.6537756568816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ba991ccc471%3A0x272096440c11cd92!2z5qCq5byP5Lya56S-bWlIb1lv!5e0!3m2!1sid!2sid!4v1656594260213!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -112,8 +73,8 @@ const menu = (() => {
   }
 
   return {
-    addMenu,
+    addContact,
   }
 })();
 
-export default menu
+export default contact

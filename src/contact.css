@@ -1,0 +1,25 @@
+.contact {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  justify-self: right;
+}
+
+.contact .card h1 {
+  border-top: 5px solid var(--nice-maroon);
+  border-bottom: 5px solid var(--nice-maroon);
+}
+
+iframe {
+  /* height: 300px;
+  width: 400px; */
+}

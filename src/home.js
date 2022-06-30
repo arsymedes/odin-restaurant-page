@@ -1,5 +1,5 @@
 const home = (() => {
-  const content = document.querySelector(".content")
+  const content = document.querySelector("body")
 
   const addHome = () => {
     let html = /*html*/`
@@ -36,9 +36,9 @@ const home = (() => {
           </svg>
           </div>
           <ul>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>Contact</li>
+            <li class="home-button">Home</li>
+            <li class="menu-button">Menu</li>
+            <li class="contact-button">Contact</li>
           </ul>
           <div class="about">About</div>
         </div>
