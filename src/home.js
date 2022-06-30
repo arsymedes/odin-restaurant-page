@@ -2,7 +2,7 @@ const home = (() => {
   const content = document.querySelector(".content")
 
   const addHome = () => {
-    let html = `
+    let html = /*html*/`
     <div class="header">
       <div class="shading">
         <div class="nav">
